@@ -6,7 +6,7 @@ random.seed(time.time())
 
 
 questions = {
-    "Who won the ballondo'r 2024 p7 braehead school?": {"choices": ["liam", "hamza", "osman", "lachlan"], "answer": "liam;"},
+    "Who won the ballondo'r 2024 p7 braehead school?": {"choices": ["liam", "hamza", "osman", "lachlan"], "answer": "liam"},
     "Who can eat the most spice?": {"choices": ["hamza", "osman", "fabian", "tymi"], "answer": "hamza"},
     "Which Tacher did we have in p7 Osmans class?": {"choices": ["Miss Grant", "Mrs Baxter", "Miss Cooper", "Miss Shinnie"], "answer": "Miss Grant"},
     "how many leugue title's do Aberdeen have":{"choices": ["36","4","25"], "answer":"4"},
