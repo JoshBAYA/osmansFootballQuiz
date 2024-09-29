@@ -5,17 +5,32 @@ random.seed(time.time())
 
 
 
-questions = {
-    "Who won the ballondo'r 2024 p7 braehead school?": {"choices": ["liam", "hamza", "osman", "lachlan"], "answer": "liam"},
-    "Who can eat the most spice?": {"choices": ["hamza", "osman", "fabian", "tymi"], "answer": "hamza"},
-    "Which Tacher did we have in p7 Osmans class?": {"choices": ["Miss Grant", "Mrs Baxter", "Miss Cooper", "Miss Shinnie"], "answer": "Miss Grant"},
-    "how many leugue title's do Aberdeen have":{"choices": ["36","4","25"], "answer":"4"},
-    "which of the following managers have coached aberdeen":{"choices": ["Alex firguson","Pep Guardiola"," Jurgen Klopp"], "answer":"Alex firguson"},
-    "who is the oldest player to play in the euro 2024":{"choices": ["pepe","ronaldo","modric"], "answer":"pepe"},
-    "who won the best winger in p7 braehead 2024":{"choices": ["hamza","osman","adriel"], "answer":"osman"},
-    "which club won the 2022 world cup":{"choices": ["Argentina/Messi","Portugal","Brazil"], "answer":"Argentina/Messi"},
-    "true or false did Spain nock france out of the euro 2024":{"choices": ["true","false"], "answer":"true"},
-}
+def main():
+    ps = PointSystem()
+    questions = [
+        ("Would you rather work with numbers or words?", "Numbers", "Words", "Neither"),
+        ("Would you rather work in a Lab or an Office?", "Lab", "Office", "Neither"),
+        ("Would you rather create an art masterpiece or write a novel?", "Art Masterpiece", "Novel", "Neither"),
+        ("Would you rather solve a complex math problem or conduct a scientific experiment?", "Math Problem", "Scientific Experiment", "Neither"),
+        ("Would you rather study ancient civilizations or learn about modern politics?", "Ancient Civilizations", "Modern Politics", "Neither"),
+        ("Would you rather design a building or create a software program?", "Design Building", "Create Software Program", "Neither"),
+        ("Would you rather work with animals or teach children?", "Work with Animals", "Teach Children", "Neither"),
+        ("Would you rather have early Mornings or late Nights?", "Early Mornings", "Late Nights", "Neither"),
+        ("Would you rather explore space or dive into the ocean's depths?", "Explore Space", "Dive into Ocean", "Neither"),
+        ("Would you rather study human behavior or understand how machines work?", "Human Behavior", "Machines", "Neither"),
+        ("Would you rather compose a piece of music or act in a play?", "Compose Music", "Act in a Play", "Neither"),
+        ("Would you rather manage a sports team or plan a corporate event?", "Manage Sports Team", "Plan Corporate Event", "Neither"),
+        ("Would you rather translate foreign languages or study the effects of globalization?", "Translate Languages", "Effects of Globalization", "Neither"),
+        ("Would you rather lead a team project or work independently on a research paper?", "Lead Team Project", "Work Independently", "Neither"),
+        ("Would you rather develop a new recipe or create a health fitness plan?", "New Recipe", "Health Fitness Plan", "Neither"),
+        ("Would you rather study law or explore philosophical ideas?", "Study Law", "Philosophical Ideas", "Neither"),
+        ("Would you rather work on environmental conservation or urban development?", "Environmental Conservation", "Urban Development", "Neither"),
+        ("Would you rather write code or study cybersecurity?", "Write Code", "Cybersecurity", "Neither"),
+        ("Would you rather analyze crime scenes or study social justice issues?", "Analyze Crime Scenes", "Social Justice Issues", "Neither"),
+        ("Would you rather focus on physical health or mental health?", "Physical Health", "Mental Health", "Neither"),
+        ("Would you rather work in a lab or the field with a community?", "Lab", "Field", "Neither"),
+        ("Would you rather be involved in business startups or work on non-profit initiatives?", "Business Startups", "Non-profit Initiatives", "Neither")
+    ]
    
       
 
