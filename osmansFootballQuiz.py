@@ -1,7 +1,5 @@
-import random
 import streamlit as st
 import time
-random.seed(time.time())
 
 
 
